@@ -7,8 +7,13 @@ const DataDiri = () => {
         <div className="container">
           <nav className="navbar">
             <div className="container-fluid">
-              <a className="navbar-brand cstm-color" href="#">
-                Kita Bank
+              <a href="#">
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Logo_BRI.png/800px-Logo_BRI.png"
+                  width="20%"
+                  height="5%"
+                  alt="logo"
+                />
               </a>
               <div className="d-flex">
                 <i className="bi bi-person-fill me-3"></i>
@@ -139,18 +144,18 @@ const DataDiri = () => {
         <div className="container mt-4 p-xl-5">
           <div className="row">
             <div className="col-2">
-              Kita Bank
-              <div className="row-cols-4 pt-5">Menara Bank</div>
-              <div className="row-cols-4 pt-3">Jalan Terusan Jakarta</div>
-              <div className="row-cols-4 pt-3">Bandung</div>
+              BRI Kantor Pusat
+              <div className="row-cols-4 pt-5">PT. Bank Rakyat Indonesia (Persero) Tbk.</div>
+              <div className="row-cols-4 pt-3">Jl. Jenderal Sudirman Kav.44-46</div>
+              <div className="row-cols-4 pt-3">Jakarta 10210</div>
             </div>
             <div className="col-2">
               Contact Us
               <div className="row-cols-4 pt-5">
-                <i className="bi bi-telephone me-2"></i>1500666
+                <i className="bi bi-telephone me-2"></i>14017 / 1500017
               </div>
               <div className="row-cols-4 pt-3">
-                <i className="bi bi-envelope me-2"></i>nurullahirham@gmail.com
+                <i className="bi bi-envelope me-2"></i>callbri@bri.co.id
               </div>
               <div className="row-cols-4 pt-3">
                 <i className="bi bi-whatsapp me-2"></i>+62 81395732100
@@ -159,10 +164,10 @@ const DataDiri = () => {
             <div className="col-2">
               Social Media
               <div className="row-cols-4 pt-5">
-                <i className="bi bi-twitter me-2"></i>@irhamnurullah
+                <i className="bi bi-twitter me-2"></i>@kontakBRI
               </div>
               <div className="row-cols-4 pt-3">
-                <i className="bi bi-instagram me-2"></i>@irhamnurullah
+                <i className="bi bi-instagram me-2"></i>@bankbri_id
               </div>
             </div>
           </div>
